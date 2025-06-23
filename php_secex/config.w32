@@ -1,0 +1,7 @@
+ARG_ENABLE('php_secex', 'php_secex support', 'no');
+
+if (PHP_PHP_SECEX != 'no') {
+	AC_DEFINE('HAVE_PHP_SECEX', 1, 'php_secex support enabled');
+
+	EXTENSION('php_secex', 'php_secex.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}

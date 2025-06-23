@@ -1,0 +1,5 @@
+cfg_dir/**
+proj_dir/**
+call_seq/**
+syscall_seq/**
+func_cfg/**
