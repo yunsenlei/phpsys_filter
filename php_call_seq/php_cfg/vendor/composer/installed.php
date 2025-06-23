@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => 'yslei/php_call_seq',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'nikic/php-parser' => array(
+            'pretty_version' => 'v4.17.1',
+            'version' => '4.17.1.0',
+            'reference' => 'a6303e50c90c355c7eeee2c4a8b27fe8dc8fef1d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/php-parser',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpdocumentor/graphviz' => array(
+            'pretty_version' => '1.0.4',
+            'version' => '1.0.4.0',
+            'reference' => 'a906a90a9f230535f25ea31caf81b2323956283f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpdocumentor/graphviz',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yslei/php_call_seq' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yunsenlei/php-cfg' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'c865df24cccfea08629696f85ee21fa73e369299',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yunsenlei/php-cfg',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+    ),
+);

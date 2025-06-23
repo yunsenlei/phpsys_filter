@@ -1,0 +1,22 @@
+{
+  "name": "yslei/php_call_seq",
+  "description": "Extract PHP function call sequence from PHP source code.",
+  "authors": [
+    {
+      "name": "Yunsen Lei",
+      "email": "ylei3@wpi.edu"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/yunsenlei/php-cfg.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "yunsenlei/php-cfg": "dev-master",
+    "ext-ast": "*",
+    "ext-json": "*"
+  }
+}

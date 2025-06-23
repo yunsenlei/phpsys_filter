@@ -1,0 +1,752 @@
+{
+  "astnodes": [
+    {
+      "nodename": "Expr_ArrayDimFetch",
+      "attrs": [
+        "line",
+        "var",
+        "dim",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Array",
+      "attrs": [
+        "line",
+        "keys",
+        "values",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Assertion",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Assign",
+      "attrs": [
+        "line",
+        "var",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_AssignRef",
+      "attrs": [
+        "line",
+        "var",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BitwiseNot",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BooleanNot",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_ClassConstFetch",
+      "attrs": [
+        "line",
+        "class",
+        "name",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Clone",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Closure",
+      "attrs": [
+        "line",
+        "useVars",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_ConcatList",
+      "attrs": [
+        "line",
+        "list",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_ConstFetch",
+      "attrs": [
+        "line",
+        "nsName",
+        "name",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Empty",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Eval",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_FuncCall",
+      "attrs": [
+        "line",
+        "name",
+        "args",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Include",
+      "attrs": [
+        "line",
+        "type",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_InstanceOf",
+      "attrs": [
+        "line",
+        "expr",
+        "class",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Isset",
+      "attrs": [
+        "line",
+        "vars",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_MethodCall",
+      "attrs": [
+        "line",
+        "var",
+        "name",
+        "args",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_New",
+      "attrs": [
+        "line",
+        "class",
+        "args",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_NsFuncCall",
+      "attrs": [
+        "line",
+        "nsName",
+        "name",
+        "args",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Param",
+      "attrs": [
+        "line",
+        "declaredType",
+        "name",
+        "defaultVar",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Print",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_PropertyFetch",
+      "attrs": [
+        "line",
+        "var",
+        "name",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_StaticCall",
+      "attrs": [
+        "line",
+        "class",
+        "name",
+        "args",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_StaticPropertyFetch",
+      "attrs": [
+        "line",
+        "class",
+        "name",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_UnaryMinus",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_UnaryPlus",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Yield",
+      "attrs": [
+        "line",
+        "value",
+        "key",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_BitwiseAnd",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_BitwiseOr",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_BitwiseXor",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Coalesce",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Concat",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Div",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Equal",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Greater",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_GreaterOrEqual",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Identical",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_LogicalXor",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Minus",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Mod",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Mul",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_NotEqual",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_NotIdentical",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Plus",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Pow",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_ShiftLeft",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_ShiftRight",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Smaller",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_SmallerOrEqual",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_BinaryOp_Spaceship",
+      "attrs": [
+        "line",
+        "left",
+        "right",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast_Array",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast_Bool",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast_Double",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast_Int",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast_Object",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast_String",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Expr_Cast_Unset",
+      "attrs": [
+        "line",
+        "expr",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Iterator_Key",
+      "attrs": [
+        "line",
+        "var",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Iterator_Next",
+      "attrs": [
+        "line",
+        "var"
+      ]
+    },
+    {
+      "nodename": "Iterator_Reset",
+      "attrs": [
+        "line",
+        "var"
+      ]
+    },
+    {
+      "nodename": "Iterator_Valid",
+      "attrs": [
+        "line",
+        "var",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Iterator_Value",
+      "attrs": [
+        "line",
+        "var",
+        "result"
+      ]
+    },
+    {
+      "nodename": "Stmt_ClassLike",
+      "attrs": [
+        "line"
+      ]
+    },
+    {
+      "nodename": "Stmt_ClassMethod",
+      "attrs": [
+        "line",
+        "flags"
+      ]
+    },
+    {
+      "nodename": "Stmt_Class",
+      "attrs": [
+        "line",
+        "name",
+        "extends",
+        "implements"
+      ]
+    },
+    {
+      "nodename": "Stmt_Function",
+      "attrs": [
+        "line"
+      ]
+    },
+    {
+      "nodename": "Stmt_Interface",
+      "attrs": [
+        "line",
+        "name",
+        "extends"
+      ]
+    },
+    {
+      "nodename": "Stmt_Jump",
+      "attrs": [
+        "line"
+      ]
+    },
+    {
+      "nodename": "Stmt_JumpIf",
+      "attrs": [
+        "line",
+        "cond"
+      ]
+    },
+    {
+      "nodename": "Stmt_Property",
+      "attrs": [
+        "line",
+        "flags",
+        "declaredType",
+        "name",
+        "defaultVar"
+      ]
+    },
+    {
+      "nodename": "Stmt_Switch",
+      "attrs": [
+        "line",
+        "cond",
+        "cases"
+      ]
+    },
+    {
+      "nodename": "Stmt_TraitUse",
+      "attrs": [
+        "line"
+      ]
+    },
+    {
+      "nodename": "Stmt_Trait",
+      "attrs": [
+        "line",
+        "name"
+      ]
+    },
+    {
+      "nodename": "Terminal_Const",
+      "attrs": [
+        "line",
+        "name",
+        "value"
+      ]
+    },
+    {
+      "nodename": "Terminal_Echo",
+      "attrs": [
+        "line",
+        "expr"
+      ]
+    },
+    {
+      "nodename": "Terminal_Exit",
+      "attrs": [
+        "line",
+        "expr"
+      ]
+    },
+    {
+      "nodename": "Terminal_GlobalVar",
+      "attrs": [
+        "line",
+        "var"
+      ]
+    },
+    {
+      "nodename": "Terminal_Return",
+      "attrs": [
+        "line",
+        "expr"
+      ]
+    },
+    {
+      "nodename": "Terminal_StaticVar",
+      "attrs": [
+        "line",
+        "var",
+        "defaultVar"
+      ]
+    },
+    {
+      "nodename": "Terminal_Throw",
+      "attrs": [
+        "line",
+        "expr"
+      ]
+    },
+    {
+      "nodename": "Terminal_Unset",
+      "attrs": [
+        "line",
+        "exprs"
+      ]
+    },
+    {
+      "nodename": "Type_Literal",
+      "attrs": [
+        "line"
+      ]
+    },
+    {
+      "nodename": "Type_Mixed",
+      "attrs": [
+        "line"
+      ]
+    },
+    {
+      "nodename": "Type_Nullable",
+      "attrs": [
+        "line",
+        "subtype"
+      ]
+    },
+    {
+      "nodename": "Type_Reference",
+      "attrs": [
+        "line",
+        "declaration"
+      ]
+    },
+    {
+      "nodename": "Type_Union",
+      "attrs": [
+        "line",
+        "subtypes"
+      ]
+    },
+    {
+      "nodename": "Type_Void",
+      "attrs": [
+        "line"
+      ]
+    }
+  ]
+}

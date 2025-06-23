@@ -1,0 +1,15 @@
+{
+  "venv": ".venv",
+  "venvPath": ".",
+  "exclude": [
+    ".venv",
+    "**/__pycache__",
+    "**/php_cfg/*"
+  ],
+  "executionEnvironments": [
+    {
+      "root": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/bin/python"
+    }
+  ]
+}
